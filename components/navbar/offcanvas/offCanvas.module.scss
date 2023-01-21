@@ -1,0 +1,18 @@
+.toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 2rem;
+    background-color: inherit; 
+}
+.body{
+    padding: 0rem 1.5rem;
+    a{
+        display: block;
+        font-size: 1.6rem;
+        color: black;
+        text-decoration: none;
+        padding-top: 1rem !important;
+    }
+}

@@ -1,0 +1,49 @@
+.form {
+    position: relative;
+    width:25rem;
+    background: rgb(233, 231, 231);
+    border-radius: 0.7rem; 
+    input, button {
+      height: 3rem;
+      border: 0;
+      color: black;
+      font-size: 1.4rem;
+    }
+    input[type="search"] {
+      outline: 0;
+      width: 100%;
+      background: inherit;
+      padding: 0 1.6rem;
+      border-radius: 1rem;
+      appearance: none;
+      transition: all .3s cubic-bezier(0, 0, 0.43, 1.49);
+      transition-property: width, border-radius;
+      z-index: 1;
+      position: relative;
+    }
+    input[type = 'search']::-webkit-search-cancel-button{
+     display: none;
+    }
+    button {
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 3rem;
+      font-weight: bold;
+      background: inherit;
+      border-radius: 0 .7rem .7rem 0;
+    }
+    input:not(:placeholder-shown) {
+      border-radius: .7rem 0 0 .7rem;
+      width: calc(100% - 3rem);
+      + button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+      }
+    }
+   
+  }
+ 

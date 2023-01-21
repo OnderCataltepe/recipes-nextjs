@@ -1,0 +1,27 @@
+#accordion{
+  border: none;
+  div{
+    border: none;
+    background-color: inherit;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem;
+    button{
+        border: none;
+        background-color: white !important;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+  }
+   .body{
+    padding: 0rem 1rem;
+  }
+  ul{
+    list-style: none;
+    padding: 0rem;
+    margin: 0rem;
+  }
+}

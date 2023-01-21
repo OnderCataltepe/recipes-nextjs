@@ -1,0 +1,40 @@
+.card{
+    width: 100%;   
+    img{
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        >div{
+            padding: 0.5rem;
+            font-size: 4rem;
+            color: black;
+            text-transform: uppercase;
+            backdrop-filter: blur(4px) saturate(50%);
+
+        }
+        >p{
+            display: block;
+            padding: 1rem;
+            color: black;
+            border: 1px solid orange;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 1rem;
+            >a{
+                text-decoration: none;
+                color: orange;
+                font-size: 2rem;
+                font-weight: 500;
+                letter-spacing: 1px;
+            }      
+        }
+        >p:hover>a{
+            text-decoration: underline;
+        }
+    }
+}

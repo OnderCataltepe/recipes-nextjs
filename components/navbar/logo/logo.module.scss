@@ -1,0 +1,15 @@
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 500;
+    span{
+        color: black;
+    }
+    img{
+        width:3rem;
+        height: auto;
+        margin-right: 0.4rem;
+    }  
+}

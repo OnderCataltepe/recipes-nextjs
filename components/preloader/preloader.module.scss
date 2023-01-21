@@ -1,0 +1,15 @@
+.modal{
+    background-color: transparent;
+    overflow: hidden;
+    >div{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        >div{
+            background-color: transparent;
+            border: none;
+            overflow-y: hidden;
+        }
+    }
+}
