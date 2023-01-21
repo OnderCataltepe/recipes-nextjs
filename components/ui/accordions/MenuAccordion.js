@@ -20,7 +20,6 @@ function CustomToggle({ children, eventKey }) {
 }
 
 const AccordionMenu = ({ items }) => {
-  console.log(items);
   return (
     <Accordion id={styles.accordion}>
       <Card>
