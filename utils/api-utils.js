@@ -4,9 +4,9 @@ const instance = axios.create({
   baseURL: process.env.NEXT_PUBLIC_BASE_URL,
 });
 
-export const getPopular = async () => {
+export const getPopular = async (num) => {
   const response = await instance.get(
-    `random?number=100&apiKey=${process.env.NEXT_PUBLIC_API_KEY}`
+    `random?number=${num}&apiKey=${process.env.NEXT_PUBLIC_API_KEY}`
   );
   return response.data;
 };

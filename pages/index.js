@@ -42,10 +42,10 @@ export default function Home(props) {
 }
 
 export async function getStaticProps() {
-  const data = await getPopular();
+  const data = await getPopular(3);
   return {
     props: {
-      popular: data.recipes.slice(0, 3),
+      popular: data.recipes,
     },
     revalidate: 86400,
   };

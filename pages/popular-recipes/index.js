@@ -49,7 +49,7 @@ const PopularRecipes = (props) => {
   );
 };
 export async function getStaticProps() {
-  const data = await getPopular();
+  const data = await getPopular(100);
   return {
     props: {
       foods: data.recipes,
