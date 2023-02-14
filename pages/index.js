@@ -47,6 +47,6 @@ export async function getStaticProps() {
     props: {
       popular: data.recipes,
     },
-    revalidate: 86400,
+    revalidate: 259200,
   };
 }
