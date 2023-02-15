@@ -54,7 +54,7 @@ export async function getStaticProps() {
     props: {
       foods: data.recipes,
     },
-    revalidate: 86400,
+    revalidate: 259200,
   };
 }
 
